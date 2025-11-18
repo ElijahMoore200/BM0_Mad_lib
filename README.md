@@ -1,1 +1,2 @@
 # BM0_Mad_lib
+I really love the fact that I learn something new everytime I code, like I would run into a problem or not know how to code something and then I can search it up, and watch a video or read a document to figure out the solution to my problem.
