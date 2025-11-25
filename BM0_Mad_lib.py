@@ -1,7 +1,9 @@
-possesive_noun = input("Today, me and my freinds are having a ___ party! (possesive noun):")
-
-print(f"We're going to go to {possesive_noun} party")
-
+import time 
+noun = input("Today, me and my freinds are having a ___ party! (noun):")
+possesive_noun = input("We're going to ____(possesive_noun):")
+print(f"Today, me and my freinds are having a {noun} party")
+time.sleep(2)
+print(f"We're going to {possesive_noun}")
 
 
 
