@@ -1,6 +1,6 @@
 import time 
 import random
-choice = random.radient(1,2)
+choice = random.randint(1,2)
 if choice == 1:
 	noun = input("Today, me and my freinds are having a ___ party! (noun):")
 	print(f"Today, me and my freinds are having a {noun} party")
