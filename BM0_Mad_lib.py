@@ -15,7 +15,10 @@ noun2 = input("We'll go down the water___(noun):")
 print(f"We'll go down the water {noun2}")
 if choice == 2
 adjective = input("I always thought he was___(adjective):")
-
+print(f"I always thought he was {adjective}")
+time.sleep(2)
+plural_noun2 = input("He went all the way to ____(plural_noun) ")
+print(f"He went all the way to {plural_noun2}")
 
 
 
