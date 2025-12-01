@@ -19,7 +19,7 @@ if choice == 2:
 	adjective = input("I always thought he was___(adjective):")
 	print(f"I always thought he was {adjective}")
 	time.sleep(2)
-	plural_noun2 = input("He went all the way to ____(plural_noun) ")
+	plural_noun2 = input("He went all the way to ____(plural_noun): ")
 	print(f"He went all the way to {plural_noun2}")
 	time.sleep(2)
 	noun3 = input("His sisters really nice though, in her room is a ____(noun):")
