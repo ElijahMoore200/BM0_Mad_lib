@@ -19,7 +19,10 @@ if choice == 2:
 	time.sleep(2)
 	plural_noun2 = input("He went all the way to ____(plural_noun) ")
 	print(f"He went all the way to {plural_noun2}")
-
+	noun3 = input("His sisters really nice, in her room is a ____(noun)")
+	print(f"His sisters really nice, in her room is a {noun3}")
+	verb = input("Mr.O on the other hand is always ___ his students")
+	print(f"Mr.O on the other hand is always {verb} his students")
 
 
 
