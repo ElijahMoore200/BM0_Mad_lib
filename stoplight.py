@@ -11,7 +11,7 @@ root.geometry("300x150")
 
 # Create buttons
 red_button = Button(root, text="Red", background='red')
-
+yellow_button = Button(root,text="Yellow", background='yellow')
 #Add a label
 label = Label(root, text="CHANGE ME!")
 
