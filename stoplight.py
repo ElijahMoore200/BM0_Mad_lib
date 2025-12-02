@@ -14,8 +14,8 @@ red_button = Button(root, text="Red", background='red')
 yellow_button = Button(root,text="Yellow", background='yellow')
 green_button= Button(root,text='Green',background='green')
 #Add a label
-label = Label(root, text="CHANGE ME!")
-
+label = Label(root, text="This is a stoplight")
+label.place (x=50,y=100)
 # Place widgets in window (with pack function!)
 label.pack()
 red_button.pack()
