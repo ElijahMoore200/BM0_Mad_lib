@@ -20,6 +20,7 @@ label = Label(root, text="CHANGE ME!")
 label.pack()
 red_button.pack()
 yellow_button.pack()
+green_button.pack()
 
 # Start the GUI event loop
 root.mainloop()
