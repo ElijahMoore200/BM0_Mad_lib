@@ -2,7 +2,7 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as tk 
-
+l = Label(root, text = "text box")
 # Create the main window
 root = Tk()
 root.title("Enter Title Here")
