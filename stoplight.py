@@ -2,7 +2,7 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as tk 
-l = Label(root, text = "text box")
+
 # Create the main window
 root = Tk()
 root.title("Enter Title Here")
@@ -18,6 +18,7 @@ green_button= Button(root,text='Green',background='green')
 label = Label(root, text = "This is a stoplight")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
 # Place widgets in window (with pack function!)
+l = Label(root, text = "text box")
 T = Text(root, height = 5, width = 52)
 red_button.pack()
 yellow_button.pack()
