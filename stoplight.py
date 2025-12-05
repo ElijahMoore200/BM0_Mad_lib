@@ -22,13 +22,13 @@ textarea = tk.Text(root, width = 50, height = 10, wrap="word")
 # Place widgets in window (with pack function!)
 l = Label(root, text = "text box")
 T = Text(root, height = 5, width = 52)
-red_button.grid(row=0, column=0)
+red_button.grid(row=0, column=0)	
 
 
-yellow_button.pack()
-green_button.pack()
-label.pack()
-T.pack()
+yellow_button.grid(row=0, column=1 )
+green_button.grid(row=0, column=2)
+label.grid(row= 1, column= 1)
+T.grid(row = 1, column =1, columnspan=2)
 
 # Start the GUI event loop
 root.mainloop()
