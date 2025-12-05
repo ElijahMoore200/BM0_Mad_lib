@@ -16,7 +16,7 @@ yellow_button = Button(root,text="Yellow", background='yellow')
 green_button= Button(root,text='Green',background='green')
 #Add a label
 label = Label(root, text="This is a stoplight")
-textarea = tk.text(root, width = 50, height = 10, wrap="word")
+textarea = tk.Text(root, width = 50, height = 10, wrap="word")
 # Place widgets in window (with pack function!)
 
 red_button.pack()
