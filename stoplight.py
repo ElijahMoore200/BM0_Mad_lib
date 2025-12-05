@@ -2,7 +2,7 @@ from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
 import tkinter as tk 
-
+T = Text(root, height = 5, width = 52)
 # Create the main window
 root = Tk()
 root.title("Enter Title Here")
@@ -26,3 +26,4 @@ label.pack()
 
 # Start the GUI event loop
 root.mainloop()
+tk.mainloop()
