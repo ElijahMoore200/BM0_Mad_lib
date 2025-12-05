@@ -15,7 +15,7 @@ red_button = Button(root, text="Red", background='red')
 yellow_button = Button(root,text="Yellow", background='yellow')
 green_button= Button(root,text='Green',background='green')
 #Add a label
-label = Label(root, text = "This is a stoplight")
+label = Label(root, text = "What color is the light?!")
 textarea = tk.Text(root, width = 50, height = 10, wrap="word")
 
 
