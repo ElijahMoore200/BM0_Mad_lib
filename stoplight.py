@@ -8,7 +8,7 @@ root = Tk()
 root.title("Enter Title Here")
 
 #Set size of window
-root.geometry("300x150")
+
 
 # Create buttons
 red_button = Button(root, text="Red", background='red')
